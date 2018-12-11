@@ -1,0 +1,451 @@
+.banner
+{
+    width: 100%;
+    height: 460px;
+}
+.banner .carousel
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner .carousel>ul>li
+{
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../images/bannerdz01.png") center top no-repeat;
+}
+.banner .carousel .circles
+{
+    position: absolute;
+    width: 54px;
+    height: 12px;
+    left: 50%;
+    margin-left: 27px;
+    bottom: 20px;
+    overflow: hidden;
+}
+
+.banner .carousel .circles ol li
+{
+    float:  left;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.banner .carousel ul li .inner .cont_in
+{
+    width: 461px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 65px;
+    margin-left: 480px;
+}
+.banner .carousel ul li .inner .cont_in .title
+{
+    height: 66px;
+    overflow: hidden;
+}
+
+.banner .carousel ul li .inner .cont_in .title .pic
+{
+    float: left;
+    width: 66px;
+    height: 66px;
+    margin-right: 10px;
+}
+
+.banner .carousel ul li .inner .cont_in .title .txt
+{
+     float: left;
+     width: 250px;
+     height: 66px
+}
+
+.banner .carousel ul li .inner .cont_in .title .txt h3
+{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+.banner .carousel ul li .inner .cont_in .title .txt p
+{
+    line-height: 22px;
+}
+
+.banner .carousel ul li .inner .cont_in .title .game
+{
+    float: left;
+    width: 115px;
+    padding-top: 10px;
+}
+
+.banner .carousel ul li .inner .cont_in .title .game a
+{
+    display: block;
+    width: 99px;
+    height: 37px;
+    line-height: 37px;
+    color: #191D3A;
+    padding-left: 16px;
+    /*background-color: red;*/
+    background: url("../images/online.png") no-repeat;
+}
+
+
+.banner .carousel ul li .inner .cont_in>p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.banner .carousel ul li .inner .cont_in h3
+{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 44px;
+    padding-left: 30px;
+    color:#FBC660;
+    background: url(../images/download.png) no-repeat 6px -28px;
+}
+
+
+.banner .carousel ul li .inner .cont_in .lis
+{
+    width: 447px;
+    height: 106px;
+}
+
+.banner .carousel ul li .inner .cont_in .lis ul li
+{
+    float: left;
+    width: 83px;
+    height: 106px;
+    margin-right: 1px;
+}
+
+.banner .carousel ul li .inner .cont_in .lis ul li a.frist
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.banner .carousel ul li .inner .cont_in .lis ul li.erweima
+{
+    width: 90px;
+    height:93px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(255,255,255,.8);
+    padding:13px 0 0 15px;
+
+}
+
+.banner .carousel ul li .inner .cont_in .lis ul li a:hover{
+
+    background-position: 27px 18px;
+    background-color: #e0dff3;
+    color:#444866;
+
+}
+
+.banner .carousel ul li .inner .cont_in .lis ul li a
+{
+    display: block;
+    width: 100%;
+    padding-top: 76px;
+    height: 30px;
+    background: rgba(255,255,255,.4) url(../images/pad.png) no-repeat -218px 18px;
+    text-align: center;
+    color: #fff;
+
+}
+
+/*.banner */
+
+
+.list
+{
+    height: 230px;
+    width: 1000px;
+    margin: 50px auto 53px;
+}
+
+.list .pics
+{
+    height: 192px;
+    overflow: hidden;
+}
+.list .pics ul{
+    width: 1044px;
+    overflow: hidden;
+}
+.list .pics ul li{
+    float: left;
+    width: 218px;
+    height: 192px;
+    margin-right: 43px;
+}
+
+.list .pics ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.list .pics ul li a img
+{
+    display: block;
+    width: 218px;
+    height: 128px;
+}
+
+.list .pics ul li a h4
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list .pics ul li a .int p {
+    color: green;
+    text-align: center;
+    font-size: 12px;
+}
+
+.list .pics ul li a:hover
+{
+    background-color: #38B774;
+    color: white;
+}
+
+.list .line{
+    height:37px;
+    border-bottom: 1px solid #DBE1E7;
+    position: relative;
+}
+
+.list .line ol {
+
+    width: 50px;
+    padding-left: 17px;
+    height:11px;
+    background-color: #fff;
+    position: absolute;
+    left:50%;
+    margin-left: -33.5px;
+    bottom:-5px;
+}
+
+.list .line ol li{
+
+    float: left;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-right: 14px;
+    background-color: #B5C0CB;
+
+}
+.content
+{
+    width: 100%;
+    padding-bottom: 57px;
+    height: 310px;
+    background: url(../images/indexmainbg.jpg) no-repeat center bottom;
+}
+
+
+.content .inner .news{
+    float: left;
+    width: 500px;
+    height:310px;
+    background: url(../images/bynewsbg.jpg) no-repeat -10px -30px;
+}
+
+.content .inner .news .tit a
+{
+    display: block;
+    margin-left: 220px;
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    color: green;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.content .inner .news ul {
+    margin-top: 60px;
+
+}
+
+.content .inner .news ul li {
+    margin-left: 15px;
+    border-bottom: 1px solid gainsboro;
+    height: 40px;
+    line-height: 40px;
+}
+
+.content .inner .news ul li a {
+    display: block;
+    float: left;
+
+}
+
+.content .inner .news ul li span {
+    display: block;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+.content .inner .job {
+    float: left;
+    width: 500px;
+    height:310px;
+    background: url(../images/byhrbg3.jpg);
+}
+
+.content .inner .job .tit
+{
+    height: 100px;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.content .inner .job .tit .text
+{
+    float: left;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.content .inner .job .tit .text h4
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.content .inner .job .tit .more
+{
+    float: left;
+    margin-left: 20px;
+    width: 50px;
+    height: 25px;
+    margin-top: 40px;
+}
+
+.content .inner .job .tit .more a
+{
+    display: block;
+    font-size: 12px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+
+
+.content .inner .job>p
+{
+    color: white;
+    margin-left: 15px;
+}
+
+
+.content .inner .job ul li
+{
+    height: 40px;
+    border-bottom: 1px solid gainsboro;
+    color: white;
+    margin-left: 15px;
+    margin-right: 180px;
+}
+
+.content .inner .job ul li a
+{
+    display:  block;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.footer{
+    background-color: #191D3A;
+    padding-top: 5px;
+}
+
+.footer .inner .top
+{
+    overflow: hidden;
+}
+
+.footer .inner .top p{
+    float: left;
+    margin-top: 20px;
+}
+
+.footer .inner .top img{
+    float: right;
+    height: 60px;
+    width: 40px;
+}
+
+.footer .inner
+{
+    padding-bottom: 20px;
+}
+
+.footer .inner ul li
+{
+    float:  left;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #491D3A;
+}
+
+
+.backTop{
+    position: fixed;
+    width: 68px;
+    height: 28px;
+    right: 30px;
+    bottom: 30px;
+}
+
+.backTop a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height:28px;
+    background:url(../images/top.png) no-repeat 0 -40px;
+}
+
+.backTop a:hover
+{
+    background-position: 0 0;
+}
+
+
